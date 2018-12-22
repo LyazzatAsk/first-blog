@@ -1,0 +1,35 @@
+body {
+background-color: ;
+background-image:url('../images/backgroundgall.jpg');
+  background-repeat: no-repeat;
+  margin: auto;
+  background-size: cover;
+}
+
+.slogan {
+  margin: auto;
+}
+
+.slogan h1 {
+  text-align: center;
+  font-weight: 250px;
+  font-size: 45px;
+  color: #acbecc;
+  font-family: Gulim;
+
+}
+.slogan h1 span {
+  color: #bd91c9;
+}
+
+.modal-header{
+ padding:9px 15px;
+ background-color:#acbecc ;}
+
+.btn-primary{
+background-color: #bd91c9;
+}
+
+.btn{
+background-color: #bd91c9;
+}

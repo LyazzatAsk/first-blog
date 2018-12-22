@@ -1,0 +1,41 @@
+body {
+background-color: ;
+background-image:url('../images/formadis1.jpg');
+  background-repeat: no-repeat;
+  margin: auto;
+  background-size: cover;
+}
+
+.slogan {
+  margin: auto;
+  background-color: ;
+	
+	margin: auto;
+
+}
+
+
+.slogan h1 {
+  text-align: center;
+  font-weight: 250px;
+  font-size: 45px;
+  color: #6c626f;
+  font-family: Gulim;
+}
+
+
+.slogan h2 {
+  text-align: center;
+  font-weight: 250px;
+  font-size: 25px;
+  color: #74153b;
+  font-family: Gulim;
+}
+
+a{
+	color: white;
+}
+
+.pos-f-t{
+  background-color: #acbecc;
+}

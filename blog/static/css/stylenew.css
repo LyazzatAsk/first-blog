@@ -1,0 +1,86 @@
+#panel,
+#flip {
+  padding: 20px;
+  background-color: white;
+  border: solid 0.3px #d8ddd8;
+  margin: auto;
+  text-align: center;
+  width: 700px;
+}
+#panel {
+  display: none;
+}
+
+#panel2,
+#flip2 {
+  padding: 20px;
+  background-color: white;
+  border: solid 0.3px #d8ddd8;
+  margin: auto;
+  text-align: center;
+  width: 700px;
+}
+#panel2 {
+  display: none;
+}
+
+#panel3,
+#flip3 {
+  padding: 20px;
+  background-color: white;
+  border: solid 0.3px #d8ddd8;
+  margin: auto;
+  text-align: center;
+  width: 700px;
+  box-shadow: 0 15px 20px -15px rgba(0, 0, 0, 0.3),
+    0 35px 50px -25px rgba(0, 0, 0, 0.3), 0 85px 60px -25px rgba(0, 0, 0, 0.1);
+}
+#panel3 {
+  display: none;
+}
+
+body {
+  background: url("../images/logo3.png");
+}
+
+h1 {
+  font-size: 25px;
+  color: black;
+  margin: auto;
+  text-align: center;
+  font-weight: 5px;
+}
+
+h2 {
+  font-size: 13px;
+  color: black;
+  margin: auto;
+  text-align: center;
+  font-weight: 5px;
+}
+
+.block2 {
+  width: 700px;
+  height: 300px;
+  background-color: ;
+  margin: auto;
+}
+
+button {
+  margin-left: 330px;
+}
+
+.container h1 {
+  font-family: NewsGoth Lt BT;
+  font-size: 45px;
+}
+
+#panel img {
+  width: 250px;
+  height: 350px;
+}
+
+#panel h2 {
+  font-size: 20px;
+  font-weight: none;
+}

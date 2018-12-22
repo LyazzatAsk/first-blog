@@ -1,0 +1,88 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!--link rel="stylesheet" type="text/css" href="css/storiesstyle.css" /-->
+    <link rel="stylesheet" href="{% static 'css/storiesstyle.css' %}">
+    <div class="main">
+      <div class="header">
+        <center><h1>Amazing Travel Experiences to Have</h1></center>
+      </div>
+      <div class="content">
+        <center><h2>Travel Experiences Around The World</h2></center>
+        <div id="content1">
+
+           {% for post in posts %}
+    
+          <h3>{{ post.title }}</h3>
+          <img src="fran2.jpg" align="left" />
+          <p>
+           {{ post.text|linebreaksbr }}
+          </p>
+        </div>
+        {% endfor %}
+
+        <div id="content2">
+          <h3>Float on a hot-air balloon in Cappadocia, Turkey.</h3>
+          <img src="images/cap.jpg" align="left" vspace="5" hspace="5" />
+          <p>
+            Take in breathtaking sights of natural fairy chimney rock formations
+            (hoodoos), panoramic vistas, and the picture-perfect image of
+            vibrant hot-air balloons—all the while experiencing flying high in
+            the sky—in the semi-arid town of Cappadocia, Turkey. Add this
+            experience to your travel bucket list ASAP.
+          </p>
+        </div>
+        <div id="content3">
+          <h3>Go dune bashing in the deserts of Dubai, UAE</h3>
+          <img src="images/dub.jpg" align="left" vspace="5" hspace="5" />
+          <p>
+            Dubai’s dune bashing doesn’t merely mean off roading. You have a
+            cultural extravaganza awaiting you. A night desert safari will get
+            you acquainted with local culture through its food, belly dance
+            performaces and more.
+          </p>
+        </div>
+        <a href="index6.html"><p>Back to the Menu</p></a>
+      </div>
+      <div class="sidebar">
+        <center><h2>Travel tips</h2></center>
+        <div id="sidebar1">
+          <center><h5>Make a List</h5></center>
+          <p>
+            Make a List About a week or so before each trip, I make a mental
+            list of items I don’t want to forget — which I WILL forget if I
+            don’t write them down. I’ve learned that when I think of something,
+            I need to write it down.
+          </p>
+          <center><h5>_____________________</h5></center>
+        </div>
+        <div id="sidebar2">
+          <center><h5>Wake up Early</h5></center>
+          <p>
+            Rise at sunrise to have the best attractions all to yourself while
+            avoiding crowds. It’s also a magical time for photos due to soft
+            diffused light, and usually easier to interact with locals. Sketchy
+            areas are less dangerous in the morning too. Honest hardworking
+            people wake up early; touts, scammers, and criminals sleep in.
+          </p>
+          <center><h5>_____________________</h5></center>
+        </div>
+        <div id="sidebar3">
+          <center><h5>Meet Local People</h5></center>
+          <p>
+            Make it a point to avoid other travelers from time to time and start
+            conversations with local people. Basic English is spoken widely all
+            over the world, so it’s easier to communicate than you might think,
+            especially when you combine hand gestures and body language.Learn
+            from those who live in the country you’re visiting.
+          </p>
+        </div>
+      </div>
+    </div>
+  </head>
+  <body></body>
+</html>

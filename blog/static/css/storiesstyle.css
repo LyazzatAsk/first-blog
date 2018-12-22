@@ -1,0 +1,146 @@
+body {
+  background: url("../images/backgroundgall.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+img {
+  border-radius: 8px;
+}
+
+.header {
+  width: 1400px;
+  height: 100px;
+  margin: auto;
+  border-radius: 8px;
+  background-color: white;
+  opacity: 0.7;
+}
+
+.header h1 {
+  padding-top: 20px;
+  color: #4b494b;
+  font-family: Gulim;
+}
+
+#content1 h3 {
+  padding-top: 25px;
+  color: black;
+  float: right;
+  margin: auto;
+  padding: 0 0 10px 10px;
+}
+
+#content1 img {
+  float: left;
+  width: 300px;
+  height: 200px;
+  padding-top: 10px;
+}
+#content1 p {
+  padding-top: 25px;
+  color: black;
+  text-indent: 5px;
+}
+
+#content2 img {
+  float: left;
+  width: 300px;
+  height: 200px;
+}
+
+#content2 p {
+  padding-top: 25px;
+  color: black;
+  font-family: ;
+}
+#content2 h3 {
+  padding-top: 25px;
+  color: black;
+  float: right;
+  margin: auto;
+  padding: 0 0 10px 10px;
+}
+
+#content3 img {
+  float: left;
+  width: 300px;
+  height: 200px;
+}
+
+#content3 p {
+  padding-top: 25px;
+  color: black;
+  font-family: ;
+}
+
+#content3 h3 {
+  padding-top: 25px;
+  color: black;
+  float: right;
+  margin: auto;
+  padding: 0 0 10px px;
+}
+
+.content {
+  width: 750;
+  height: 820px;
+  float: left;
+  margin-left: 200px;
+  border-radius: 8px;
+  margin-top: 10px;
+  padding: 5px;
+  background-color: white;
+  opacity: 0.7;
+  font-family: Corbel;
+}
+.content div {
+  width: 720px;
+  height: 200px;
+  border-radius: 8px;
+  margin-top: 10px;
+  padding: 5px;
+  font-family: Corbel;
+}
+
+.sidebar1 {
+  font-family: Corbel;
+  font-size: 15px;
+}
+
+.sidebar {
+  float: right;
+  width: 330px;
+  height: 820px;
+  margin-right: 200px;
+  border-radius: 8px;
+  margin-top: 10px;
+  background-color: white;
+  opacity: 0.7;
+  font-family: Corbel;
+  margin-bottom: 200px;
+}
+
+.sidebar div {
+  width: 280px;
+  height: 230px;
+  margin-top: 20px;
+  border-radius: 8px;
+  margin: auto;
+}
+
+.sidebar h2 {
+  font-size: 25px;
+  text-decoration: underline;
+}
+
+.sidebar h5 {
+  font-size: 15px;
+}
+
+a {
+  font-size: 25px;
+  float: right;
+  padding: 20px;
+  color: black;
+}

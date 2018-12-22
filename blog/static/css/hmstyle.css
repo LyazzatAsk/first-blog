@@ -1,0 +1,122 @@
+
+#panel,#flip{
+	padding: 20px;
+	background-color: white;
+	border:solid 0.3px #d8ddd8;
+	margin: auto;
+	text-align: center;
+	width: 400px;
+
+}
+#panel{
+	display: none;
+	
+}
+
+
+#panel2,#flip2{
+	padding: 20px;
+	background-color: white;
+	border:solid 0.3px #d8ddd8;
+	margin: auto;
+	text-align: center;
+	width: 400px;
+}
+#panel2{
+	display: none;
+}
+
+#panel3,#flip3{
+	padding: 20px;
+	background-color: white;
+	border:solid 0.3px #d8ddd8;
+	margin: auto;
+	text-align: center;
+	width: 400px;
+	box-shadow: 0 15px 20px -15px rgba(0, 0, 0, 0.3), 0 35px 50px -25px rgba(0, 0, 0, 0.3), 0 85px 60px -25px rgba(0, 0, 0, 0.1);
+	
+}
+#panel3{
+	display: none;
+
+	
+
+}
+
+
+body{
+	background-color: lightblue;
+}
+
+.mainblock{
+	width: 700px;
+	height: 300px;
+	margin:auto;
+	background-color: ;
+}
+
+p{
+	font-size: 40px;
+	color: white;
+	margin:auto;
+	text-align: center;
+	font-weight: 15px;
+}
+h1{
+	font-size: 25px;
+	color: black;
+	margin:auto;
+	text-align: center;
+	font-weight: 5px;
+}
+
+h2{
+	font-size: 13px;
+	color: black;
+	margin:auto;
+	text-align: center;
+	font-weight: 5px;
+}
+
+.block2{
+width: 700px;
+height: 300px;
+background-color:;
+margin:auto;
+}
+
+button{
+	margin-left: 330px;
+}
+
+
+.tab {
+	border: 1px solid transparent;
+	border-radius: 40px;
+	display: inline-block;
+	text-decoration: none;
+	padding: .5rem 1rem;
+	color: rgba(255, 255, 255, .6);
+	font-weight: 700;
+	background: rgba(10, 20, 30, .2);
+}
+
+.tab.active {
+	color: white;
+	background: rgba(255,255,255,.1);
+	border: 1px solid rgba(255, 255, 255, .6);
+}
+
+.tab-content {
+	background: linear-gradient(to bottom right, white, #F8F8F8);
+  box-shadow: 0 15px 20px -15px rgba(0, 0, 0, 0.3), 0 35px 50px -25px rgba(0, 0, 0, 0.3), 0 85px 60px -25px rgba(0, 0, 0, 0.1);
+	display: none;
+	padding: 1.5rem;
+	color: #4a5666;
+}
+
+.show {
+	display: block;
+
+}
+
