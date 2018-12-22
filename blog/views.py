@@ -16,7 +16,7 @@ def gallery(request):
     return render(request, 'blog/gallery.html')
 
 def form(request):
-    return render(request, 'blog/formdis.html')
+    return render(request, 'blog/formadis.html')
 
 
 def new(request):
